@@ -34,6 +34,6 @@ var _detect = {
             || false);
     },
     isIE: function() {
-       return '\v' == 'v';
+       return /*@cc_on!@*/false;
     }
 };
